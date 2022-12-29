@@ -20,8 +20,24 @@ Write your own steps
 ## PROGRAM
 
 Include your code here
+```
+from django.db import models
+from django.contrib import admin
+
+# Create your models here.
+
+class Employee (models.Model): 
+    Name=models.CharField(max_length=100)
+    Age=models.IntegerField()
+    Phonenumber=models.CharField(max_length=11,help_text="Phonenumber")
+    email=models.EmailField()
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('Name','Age','Phonenumber','email')
+```
 
 ## OUTPUT
+![emloy](./image/Screenshot(13).png)
 
 Include the screenshot of your admin page.
 
