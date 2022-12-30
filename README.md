@@ -11,11 +11,11 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
-
+clone the repository to theia id.start a new app inside the project folder
 ### STEP 2:
-
+type the oppropriate code for your table and provide appropriate data type to the columns
 ### STEP 3:
-
+creat a report about your projectb in readme .md file and upload the django.orm.app folder to your remote reporsitory.
 Write your own steps
 
 ## PROGRAM
